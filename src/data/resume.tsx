@@ -23,7 +23,7 @@ export const DATA = {
     "Kubernetes",
     "Socket.Io",
     "AWS",
-    "C",
+    "Redis",
     "TailwindCSS",
     "Framer Motion",
   ],
@@ -65,14 +65,26 @@ export const DATA = {
 
   work: [
     {
+      company: "Easework AI",
+      href: "https://rework.club/",
+      badges: [],
+      location: "Remote",
+      title: "Full Stack developer (Frontend focused) Developer",
+      logoUrl: "/rework.png",
+      start: "Nov, 2025",
+      end: "Present",
+      description:
+        "Currently working in a frontend developer role at Rework AI, where I code and deploy applications in React.js and Next.js.",
+    },
+    {
       company: "Rework AI",
       href: "https://rework.club/",
       badges: [],
       location: "Remote",
       title: "React.js Developer",
-      logoUrl: "/rework.png",
+      logoUrl: "/ease.png",
       start: "Feb, 2024",
-      end: "Present",
+      end: "Oct, 2024",
       description:
         "Currently working in a frontend developer role at Rework AI, where I code and deploy applications in React.js and Next.js.",
     },
