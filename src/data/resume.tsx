@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Software Engineer. I love building things and helping people. Very active on GitHub.",
   summary:
-    "I'm currently pursuing a B.Tech in Computer Science and Engineering, focusing on web development with React and Next.js. I've successfully won 3 hackathons, showcasing my ability to create innovative solutions.",
+    "Software Engineer with 2+ years of experience in frontend development, specializing in React.js and Next.js. Proven track record of delivering high-quality web applications and collaborating effectively in remote teams. Passionate about learning new technologies and contributing to open-source projects.",
   avatarUrl: "/hh.png",
   skills: [
     "React",
@@ -132,7 +132,101 @@ export const DATA = {
     },
   ],
   projects: [
+
     {
+      title: "DSA Round Robin",
+      href: "https://dsaroundrobin.fun/",
+      dates: "Personal Project",
+      active: true,
+      description:
+        "DSA Round Robin is a real-time collaborative platform for gamified Data Structures and Algorithms (DSA) practice. It features 1v1 coding battles, real-time chat, friend duels, global leaderboards, and progress tracking in a high-performance environment.",
+      technologies: [
+        "NextJs 16",
+        "NodeJs",
+        "Express",
+        "PostgreSQL,Tailwind",
+        "Framer Motion",
+        "socket.io",
+        "CodeMirror",
+        "Redis",
+        "BullMQ",
+
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://dsaroundrobin.fun/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/aspired2001/Dsa-round-robin",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/videos/DSARoundRobin.mp4",
+    },
+    {
+      title: "Spylt Landing Page",
+      href: "https://speelt-animated-landing-page.vercel.app/",
+      dates: "Freelance",
+      active: true,
+      description:
+        "A modern, interactive landing page for SPEELT protein drinks built with Next.js and GSAP animations. Features smooth scrolling, dynamic flavor sections, and a fully responsive design.",
+      technologies: [
+        "NextJs",
+        "Typescript",
+        "Tailwind",
+        "Framer Motion",
+        "GSAP",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://speelt-animated-landing-page.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/aspired2001/SpeeltAnimatedLandingPage",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/videos/speeltLandingPage.mp4",
+    },
+        {
+      title: "GTA 6 Landing Page",
+      href: "https://gta-six-landing-clone.vercel.app/",
+      dates: "Personal Project",
+      active: true,
+      description:
+        "A modern, interactive landing page for GTA 6 built with Next.js and GSAP animations. Features smooth scrolling, dynamic flavor sections, and a fully responsive design.",
+      technologies: [
+        "NextJs",
+        "Typescript",
+        "Tailwind",
+        "Framer Motion",
+        "GSAP",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://gta-six-landing-clone.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/videos/Gta_landing_page.mp4",
+    },
+
+        {
       title: "SixthSense",
       href: "https://sixthsense.vercel.app/",
       dates: "3rd Year",
@@ -163,35 +257,6 @@ export const DATA = {
       ],
       image: "",
       video: "/videos/sixthsense.mp4",
-    },
-    {
-      title: "Hackodex Website",
-      href: "https://hackodex.codex-iter.in/",
-      dates: "3rd Year",
-      active: true,
-      description:
-        "A website for hosting the Hackodex month-long open-source event. Features GitHub authentication for student registration and progress tracking, allowing participants to track their contributions and achievements throughout the event.",
-      technologies: [
-        "React",
-        "NodeJs",
-        "Express",
-        "MongoDB,Tailwind",
-        "Framer Motion",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://hackodex.codex-iter.in/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "/videos/hackodex.mp4",
     },
     {
       title: "Samriddhi",
