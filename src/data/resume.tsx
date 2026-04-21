@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Software Engineer. I love building things and helping people. Very active on GitHub.",
   summary:
-    "Software Engineer with 2+ years of experience in frontend development, specializing in React.js and Next.js. Proven track record of delivering high-quality web applications and collaborating effectively in remote teams. Passionate about learning new technologies and contributing to open-source projects.",
+    "Software Engineer with 1.5+ years of experience in frontend development, specializing in React.js and Next.js. Proven track record of delivering high-quality web applications and collaborating effectively in remote teams. Passionate about learning new technologies and contributing to open-source projects.",
   avatarUrl: "/hh.png",
   skills: [
     "React",
@@ -88,30 +88,7 @@ export const DATA = {
       description:
         "Currently working in a frontend developer role at Rework AI, where I code and deploy applications in React.js and Next.js.",
     },
-    {
-      company: "Abhyaz",
-      href: "https://www.abhyaz.com/",
-      badges: [],
-      location: "Remote",
-      title: "Frontend Developer",
-      logoUrl: "/soshals.jpg",
-      start: "May, 2023",
-      end: "August, 2023",
-      description:
-        "As a Frontend Developer at Abhyaz in May 2023, I worked remotely on Next.js and developed 6 user profile templates within a month.",
-    },
-    {
-      company: "Celebal Technologies",
-      href: "https://celebaltech.com/",
-      badges: [],
-      location: "Remote",
-      title: "Software Developer",
-      logoUrl: "/celebal.png",
-      start: "Jan, 2023",
-      end: "May, 2023",
-      description:
-        "As a Software Developer Intern at Celebal Technologies, Jaipur, from Jan 2023 to May 2023, I Developed a real-time chat app using Socket.io, Express.js, and MongoDB during the internship.",
-    },
+   
   ],
   education: [
     {
